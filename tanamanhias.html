@@ -1,88 +1,143 @@
 <!DOCTYPE html>
-<html> 
-    <head> 
-        <title> </title>
-        <style> 
-            body{
-                background-color:#A46BBD;
-            }
-            header{ 
-                background-color:#834ea3;
-                text-align: center;
-                padding: 10px : 
-            }
-            a{ 
-                color: white
-                padding : 5px 10px; 
-            }
-            a  :hover{
-                color: rgb(212, 212, 146);
-            }
+<html>
+<head>
+    <title>5 Tim E-sport Terkaya di Dunia</title>
+    <style>
+        /* Smoot Scroll */
+        html{
+            scroll-behavior: smooth;
+        }
 
-            h2{ 
-                color: #FFFFFF;
-            }
-            section{ 
-                box-shadow: 0px 0px 5px ;
-            }
-            section.MERTUA{
-                background-color:#9156A9;
-                border-radius: 0px 20px 0px 20px;
-                
-            }
-             section.MONSTERA { 
-                border-radius: 20px 0px 20px 0px;
-                background-color:#EA428B;
-            }
-            section.GAJAH { 
-                border-radius: 20px 0px 20px 0px;
-                background-color:#CCB2D3;
-            }
-            img { 
-                width: 100px;
-            }
-           
-        </style>
-    </head>
-    <body> 
-        <header> 
-            <h2>TANAMAN HIAS</h2>
-            <nav> 
-                <a href="#"> LIDAH MERTUA</a>
-                <a href="#"> MONSTERA </a>
-                <a href="#"> KUPING GAJAH</a>
-            </nav>
-        </header>
-        <section class="MERTUA">
-            <h3> LIDAH MERTUA</h3>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnoVsLx-a4QhWUcqTSmZm91kb0jTMV0YotvQ&s"
-            <p>
-            
-            Lidah mertua adalah jenis tanaman hias daun yang memiliki ciri daun menyempit di pangkalnya dan meruncing di ujungnya.
-            Tanaman hias ini biasanya punya beberapa jenis warna yang, yaitu hijau tua, hijau muda, hijau keabu-abuan, dan hijau kekuningan.
-            Merawat tanaman lidah mertua cukup mudah. Soalnya, tanaman ini mudah beradaptasi karena bisa menyimpan cadangan air dalam jumlah besar.
-            </p>
-        </section>
-        <section class="MONSTERA">
-            <h3>MONSTERA</h3>
-            <img src="data:image/jpeg;base64,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"
-            <p> 
-            Siapa yang tidak mengenal tanaman monstera? Ya, ini salah satu tanaman yang sangat populer saat ini.
-            Monstera memiliki ciri daun tebal berwarna hijau dengan bolongan besar di daun-daunnya. Tanaman monstera biasanya cocok diletakkan di teras rumah, yang tidak langsung terpapar sinar matahari.
-            Hindari meletakkannya dekat paparan sinar matahari langsung karena cahaya berlebihan akan membuat daunnya menjadi kekuningan.
-            </p>
+        body{
+            background-color:rgb(241, 245, 208);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
+        img{
+            width: 450px;
+            border-radius: 10px;
+        }
 
-        </section>
-        <section class="KUPING GAJAH"
-        <h3> KUPING GAJAH </h3>
-        <img src="data:image/jpeg;base64,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"
-        <p> 
-            Kuping Gajah memiliki daun berukuran besar dan berbentuk hati. Tanaman kuping gajah memerlukan tanah yang lembab dan bernutrisi untuk tumbuh sehingga kamu harus secara teratur merawat jenis tanaman ini.
+        header{
+            background-color: rgb(255, 221, 245);
+            border-radius: 0px 0px 20px 20px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+        }
 
+        nav ul{
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
 
+        nav ul li{
+            display: inline;
+        }
 
+        nav ul li a{
+            text-decoration: none;
+            background-color: #fff;
+            padding: 7px 12px;
+            border-radius: 10px;
+            transition: 0.3s;
+            font-weight: bold;
+            color: rgb(53, 53, 53);
+        }
+
+        nav ul li a:hover{
+            background-color: rgb(255, 130, 186);
+            color: white;
+        }
+
+        section{
+            box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+            text-align: center;
+            padding: 20px;
+            margin: 25px 50px;
+            border-radius: 15px;
+        }
+
+        h3{
+            margin-top: 0;
+        }
+
+        /* Warna judul setiap tim */
+        .teamliquid{ color:rgb(45, 28, 141); }
+        .teamog{ color:rgb(25, 95, 95); }
+        .fnatic{ color:rgb(177, 83, 7); }
+        .teamspirit{ color:rgb(0, 4, 26); }
+        .navi{ color:rgb(97, 95, 6); }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Tim E-sport Terkaya di Dunia</h2>
+        <nav>
+            <ul>
+                <li><a href="#teamliquid">Team Liquid</a></li>
+                <li><a href="#teamog">Team OG</a></li>
+                <li><a href="#fnatic">Fnatic</a></li>
+                <li><a href="#teamspirit">Team Spirit</a></li>
+                <li><a href="#navi">Natus Vincere</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="teamliquid" class="teamliquid">
+        <h3>TEAM LIQUID</h3>
+        <img src="https://api.duniagames.co.id/optimize-image?url=https%3A%2F%2Fapi.duniagames.co.id%2Fapi%2Fcontent%2Fupload%2Ffile%2F19404819431754240276.jpeg&format=webp&width=736&signature=01bd4bd74a6aced09ec552a54b94473188fa516a7ea5cda03b939a473702a6a6">
+        <p>
+            Team Liquid berasal dari Belanda dan menjadi salah satu tim paling sukses di dunia.
+            Mereka menjuarai The International 2017 dan kini total hadiah yang didapat lebih dari
+            50 juta dolar AS.
         </p>
     </section>
-    </body>
+
+    <section id="teamog" class="teamog">
+        <h3>TEAM OG</h3>
+        <img src="https://superlive.id/storage/articles/55ce9028-b72e-4c6f-8546-deb0712df0ea.jpg">
+        <p>
+            OG adalah tim Eropa yang sangat terkenal di Dota 2 karena berhasil memenangkan
+            The International dua kali berturut-turut (2018 & 2019). Total hadiah mereka lebih
+            dari 38 juta dolar AS.
+        </p>
+    </section>
+
+    <section id="fnatic" class="fnatic">
+        <h3>FNATIC</h3>
+        <img src="https://asset.msi.com/global/picture/game-team/fnatic/fnatic_info.jpg">
+        <p>
+            Fnatic berasal dari London dan terkenal di berbagai game seperti Dota 2,
+            CS:GO, dan League of Legends. Total hadiah yang mereka menangkan lebih dari
+            21 juta dolar AS.
+        </p>
+    </section>
+
+    <section id="teamspirit" class="teamspirit">
+        <h3>TEAM SPIRIT</h3>
+        <img src="https://static.gosugamers.net/99/82/65/cbaf1d1286e68668325d960a0c3e6adf6700582557e2db059345ccfde1.webp?w=1600">
+        <p>
+            Team Spirit berasal dari Rusia dan terkenal setelah menjuarai The International
+            2021 dengan hadiah lebih dari 18 juta dolar AS. Total hadiah mereka kini sudah
+            lebih dari 30 juta dolar AS.
+        </p>
+    </section>
+
+    <section id="navi" class="navi">
+        <h3>NATUS VINCERE</h3>
+        <img src="https://cdn.oneesports.id/cdn-data/sites/2/2025/02/MLBB_Roster_Natus_Vincere_NAVI_MLBB_MPL_ID_S15-1024x576.jpg">
+        <p>
+            NAVI berasal dari Ukraina dan terkenal dalam CS:GO dan Dota 2. Mereka sudah
+            memenangkan hadiah lebih dari 22 juta dolar AS sejak didirikan pada 2009.
+        </p>
+    </section>
+
+</body>
 </html>
